@@ -24,9 +24,9 @@ Obtenha suas credenciais de conexão no painel do Aiven (Host, Porta, Nome do Ba
 Abra src/main/java/conexao/Conexao.java e atualize as seguintes constantes com suas informações do Aiven:
 
 public class Conexao {
-    private static final String DB_HOST = "bd-andrei-ba-8f3d.faivencloud.com"; // Seu Host
-    private static final String DB_PORT = "19535"; // Sua Porta
-    private static final String DB_NAME = "deuses_entidades_divinas_Andrei_e_Claiton"; // Nome do seu BD
+    private static final String DB_HOST = "mysql-11fa8237-ba-4319.c.aivencloud.com"; // Seu Host
+    private static final String DB_PORT = "17599"; // Sua Porta
+    private static final String DB_NAME = "deuses_entidades_divinas_Guilherme"; // Nome do seu BD
     private static final String DB_USER = "avnadmin"; // Seu Usuário
     private static final String DB_PASSWORD = "SUA_SENHA"; // Sua Senha
     // ...
