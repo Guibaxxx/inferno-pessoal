@@ -1,10 +1,10 @@
 Sistema CRUD - Cavaleiros do Zodíaco (Andrei e Claiton)
 Este projeto Java implementa um sistema CRUD (Create, Read, Update, Delete) para gerenciar dados do universo dos Cavaleiros do Zodíaco em um banco de dados MySQL hospedado no Aiven.
 
-🚀 Funcionalidades
+ Funcionalidades
 O sistema permite operações básicas de CRUD para as tabelas: Deuses, Esferas_Poder, Seguidores, Templos, e Rituais.
 
-⚙️ Pré-requisitos
+ Pré-requisitos
 Java Development Kit (JDK): Versão 11 ou superior.
 
 IntelliJ IDEA: Ou outra IDE Java.
@@ -20,7 +20,7 @@ Crie as tabelas (Deuses, Esferas_Poder, Seguidores, Templos, Rituais) no banco d
 
 Obtenha suas credenciais de conexão no painel do Aiven (Host, Porta, Nome do Banco de Dados, Usuário, Senha, Certificado CA).
 
-🔑 Configuração das Credenciais no Código
+ Configuração das Credenciais no Código
 Abra src/main/java/conexao/Conexao.java e atualize as seguintes constantes com suas informações do Aiven:
 
 public class Conexao {
@@ -33,7 +33,7 @@ public class Conexao {
 }
 
 
-🔐 Configuração SSL (Essencial para Aiven)
+ Configuração SSL (Essencial para Aiven)
 Para conectar ao Aiven, você precisa configurar o SSL.
 
 Baixe o Certificado CA (ca.pem ou similar) do seu serviço Aiven.
@@ -63,14 +63,14 @@ src/main/java/
 └── mainapp/
 
 
-▶️ Como Executar o Sistema
+▶ Como Executar o Sistema
 No IntelliJ, vá em Build > Rebuild Project.
 
 Execute a classe principal: src/main/java/mainapp/Main.java. Clique com o botão direito e selecione Run 'Main.main()'.
 
 O console exibirá as operações CRUD sendo executadas.
 
-⚠️ Solução de Problemas
+⚠ Solução de Problemas
 Communications link failure / UnknownHostException:
 
 Verifique o DB_HOST em Conexao.java (erro de digitação).
